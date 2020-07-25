@@ -1,13 +1,10 @@
-*{
-	margin: 0px;
-	padding: 0;
-	border: 0;
-	box-sizing: border-box;
-}
+
 body{
-	width: 100%;
-	background-color: rgb(27,27,27);
-	color: azure;
-	font-family: 'Oxygen', sans-serif;
-	/*font-family: 'Capriolan', sans-serif; */
+    background-color: rgb(27,27,27);
+    font-family: Oxygen, sans-serif;
+    color: azure;
+    font-size: 18px;
+}
+#header-nav{
+	background-color: grey;
 }
