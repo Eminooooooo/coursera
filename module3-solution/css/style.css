@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	font-family: 'Oxygen', sans-serif; 
 }
@@ -47,4 +48,55 @@ hr {
 #main-content h3{
 	font-weight: 600;
 	font-size: 1.3em;
+=======
+body{
+	font-family: 'Oxygen', sans-serif; 
+}
+.navbar{
+	background-color: grey;
+}
+.navbar-brand a{
+	text-decoration: none;
+	color: #222;
+}
+.navbar-brand h1{
+	font-weight: bold;
+}
+.navbar-toggler-icon{
+	font-size: 0.8em;
+}
+#navbarNav{
+	background-color: azure;
+	margin-left: -31px;
+	margin-right: -31px;
+	margin-bottom: 0px;
+}
+#nav-div{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.nav-link{
+	text-align: center;
+	font-weight: 600;
+}
+hr {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+ 	border: 0;
+ 	border-top: 1px solid grey;
+}
+#main-content section{
+	background-color: grey;
+	padding: 15px;
+}
+#main-content h2{
+	font-weight: 600;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#main-content h3{
+	font-weight: 600;
+	font-size: 1.3em;
+>>>>>>> f663ef5ce5137ecbd5013fead3ff95d59e4f1680
 }
