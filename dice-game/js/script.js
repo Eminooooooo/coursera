@@ -1,30 +1,30 @@
 
-var imgList1 = [0,1,2,3,4,5]
-var imgList2 = [0,1,2,3,4,5]
+var imgList1 = [1,2,3,4,5,6]
+var imgList2 = [1,2,3,4,5,6]
 
 function rollDice1() {
 	var diceNo1 = imgList1.length;
-	var dicePicked1 = Math.floor(Math.random(diceNo1) * diceNo1);
+	var dicePicked1 = Math.ceil(Math.random(diceNo1) * diceNo1);
 	var diceShowed1 = imgList1[dicePicked1];
 	console.log(diceShowed1)
 	console.log(dicePicked1)
 	
-	if (dicePicked1 == 0) {
+	if (dicePicked1 == 1) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-1.png")
 	}
-	else if (dicePicked1 == 1) {
+	else if (dicePicked1 == 2) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-2.png")
 	}
-	else if (dicePicked1 == 2) {
+	else if (dicePicked1 == 3) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-3.png")
 	}
-	else if (dicePicked1 == 3) {
+	else if (dicePicked1 == 4) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-4.png")
 	}
-	else if (dicePicked1 == 4) {
+	else if (dicePicked1 == 5) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-5.png")
 	}
-	else if (dicePicked1 == 5) {
+	else if (dicePicked1 == 6) {
 		document.querySelector(".dice-p1 img").setAttribute("src", "images/dice-6.png")
 	}
 
@@ -33,27 +33,27 @@ function rollDice1() {
 
 function rollDice2() {
 	var diceNo2 = imgList2.length;
-	var dicePicked2 = Math.floor(Math.random(diceNo2) * diceNo2);
+	var dicePicked2 = Math.ceil(Math.random(diceNo2) * diceNo2);
 	var diceShowed2 = imgList2[dicePicked2];
 	console.log(diceShowed2)
 	console.log(dicePicked2)
 
-	if (dicePicked2 == 0) {
+	if (dicePicked2 == 1) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-1.png")
 	}
-	else if (dicePicked2 == 1) {
+	else if (dicePicked2 == 2) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-2.png")
 	}
-	else if (dicePicked2 == 2) {
+	else if (dicePicked2 == 3) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-3.png")
 	}
-	else if (dicePicked2 == 3) {
+	else if (dicePicked2 == 4) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-4.png")
 	}
-	else if (dicePicked2 == 4) {
+	else if (dicePicked2 == 5) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-5.png")
 	}
-	else if (dicePicked2 == 5) {
+	else if (dicePicked2 == 6) {
 		document.querySelector(".dice-p2 img").setAttribute("src", "images/dice-6.png")
 	}
 
