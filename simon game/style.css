@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(20,20,35);
+    font-family: sans-serif;
+}
+h1 {
+    color: wheat;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3em;
+}
+h2 {
+    color: wheat;
+    margin-top: 30px;
+    text-align-last: center;
+    font-size: 2em;
+}
+section{
+    text-align: center;
+    margin-right: -50px;
+}
+button {
+    width: 180px;
+    height: 180px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 8px solid black;
+    border-radius: 35px;
+}
+#green {
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: darkblue;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
